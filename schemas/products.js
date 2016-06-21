@@ -1,5 +1,4 @@
 var mongoose = require('mongoose');
-var ingredient=require('../schemas/ingredients');
 
 var productSchema = new mongoose.Schema({
   name : String,
